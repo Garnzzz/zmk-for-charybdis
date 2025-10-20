@@ -48,6 +48,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        lh_lclick {
+            bindings = <&mkp MB1>;
+            key-positions = <40 39>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
